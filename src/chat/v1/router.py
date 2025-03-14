@@ -120,7 +120,6 @@ async def history(chat_id: int):
     return {"result": history}
 
 
-
 @router.websocket("/chat/{chattype}/{chatname}/{username}")
 async def conversation(websocket: WebSocket, chatname: str, username: str, chattype: str = Depends(is_chattype)):
 

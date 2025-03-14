@@ -17,7 +17,3 @@ async def hash_of_names(username: str, chatname: str) -> str:
 
 
 
-# print(hash_of_names("djake99", "denny"))
-
-
-

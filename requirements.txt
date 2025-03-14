@@ -1,0 +1,8 @@
+fastapi[standard]
+pydantic-settings
+python-jose
+python-dotenv
+sqlalchemy[asyncio]
+websockets
+asyncpg
+alembic
